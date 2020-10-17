@@ -1,0 +1,12 @@
+check for duplicates
+
+.describe for quantitative features
+
+.value_counts for categorical
+
+univariate exploration
+bar charts for qualitative variables
+
+histograms for quantitative variables
+
+
