@@ -56,3 +56,9 @@ For compactness, I decided to use boxplots for this multivariate relationship. I
 
 From bivariate analyses during exploration, I noted the negative relationship between `BorrowerRate` and `ProsperRatingGrade`. Using `IsPost2009` as hue again, I also did a similar boxplot but with `BorrowerRate` in the y-axis. It not only illustrated the negative relationship between `BorrowerRate` and `ProsperRatingGrade`, it also showed
 succinctly that after mid-2009 the ratings (namely ProsperRating) are more determinant of `BorrowerRate`, as opposed to pre-mid-2009 where `BorrowerRate` is more varied across ratings.
+
+## References
+- https://seaborn.pydata.org/
+- https://matplotlib.org/3.1.1/api/axes_api.html
+- https://classroom.udacity.com
+- https://pandas.pydata.org/
