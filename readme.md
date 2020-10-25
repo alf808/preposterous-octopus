@@ -12,18 +12,18 @@ This dataset is provided by Prosper a lending company. It has 113937 records wit
 
 For this project I selected to examine the interplay of the following features with their respective definitions from [Prosper's Data Dictionary](https://www.google.com/url?q=https://docs.google.com/spreadsheet/ccc?key%3D0AllIqIyvWZdadDd5NTlqZ1pBMHlsUjdrOTZHaVBuSlE%26usp%3Dsharing&sa=D&ust=1554486256024000)
 
-`ListingKey`: Unique key for each listing, same value as the 'key' used in the listing object in the API.
-`CreditGrade`: The Credit rating that was assigned at the time the listing went live. Applicable for listings pre-2009 period and will only be populated for those listings.
-`BorrowerRate`: The Borrower's interest rate for this loan. 
-`ProsperRating (numeric)`: The  Prosper Rating assigned at the time the listing was created: 0 - N/A, 1 - HR, 2 - E, 3 - D, 4 - C, 5 - B, 6 - A, 7 - AA.  Applicable for loans originated after July 2009.
-`ProsperScore`: A custom risk score built using historical Prosper data. The score ranges from 1-10, with 10 being the best, or lowest risk score.  Applicable for loans originated after July 2009.
-`EmploymentStatusDuration`: The length in months of the employment status at the time the listing was created.
-`IsBorrowerHomeowner`: A Borrower will be classified as a homowner if they have a mortgage on their credit profile or provide documentation confirming they are a homeowner.
-`CreditScoreRangeUpper`: The upper value representing the range of the borrower's credit score as provided by a consumer credit rating agency. 
-`CurrentCreditLines`: Number of current credit lines at the time the credit profile was pulled.
-`CurrentDelinquencies`: Number of accounts delinquent at the time the credit profile was pulled.
-`AvailableBankcardCredit`: The total available credit via bank card at the time the credit profile was pulled.
-`LoanOriginalAmount`: The origination amount of the loan.
+- `ListingKey`: Unique key for each listing, same value as the 'key' used in the listing object in the API.
+- `CreditGrade`: The Credit rating that was assigned at the time the listing went live. Applicable for listings pre-2009 period and will only be populated for those listings.
+- `BorrowerRate`: The Borrower's interest rate for this loan. 
+- `ProsperRating (numeric)`: The  Prosper Rating assigned at the time the listing was created: 0 - N/A, 1 - HR, 2 - E, 3 - D, 4 - C, 5 - B, 6 - A, 7 - AA.  Applicable for loans originated after July 2009.
+- `ProsperScore`: A custom risk score built using historical Prosper data. The score ranges from 1-10, with 10 being the best, or lowest risk score.  Applicable for loans originated after July 2009.
+- `EmploymentStatusDuration`: The length in months of the employment status at the time the listing was created.
+- `IsBorrowerHomeowner`: A Borrower will be classified as a homowner if they have a mortgage on their credit profile or provide documentation confirming they are a homeowner.
+- `CreditScoreRangeUpper`: The upper value representing the range of the borrower's credit score as provided by a consumer credit rating agency. 
+- `CurrentCreditLines`: Number of current credit lines at the time the credit profile was pulled.
+- `CurrentDelinquencies`: Number of accounts delinquent at the time the credit profile was pulled.
+- `AvailableBankcardCredit`: The total available credit via bank card at the time the credit profile was pulled.
+- `LoanOriginalAmount`: The origination amount of the loan.
 
 I also added 3 features derived from the original selected features:
 
